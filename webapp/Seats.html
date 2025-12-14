@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Select Seats</title>
+<style>
+body{text-align:center;font-family:Arial;background:#eef1f6;}
+.screen{
+    background:#ccc;
+    padding:8px;
+    width:300px;
+    margin:20px auto;
+}
+.seat{
+    display:inline-block;
+    width:45px;
+    padding:10px;
+    margin:5px;
+    background:#28a745;
+    color:white;
+    border-radius:6px;
+}
+.booked{background:red;}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 18px;
+    background:#007bff;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<h2>Select Seats</h2>
+
+<div class="screen">SCREEN</div>
+
+<div>
+    <span class="seat booked">A1</span>
+    <span class="seat">A2</span>
+    <span class="seat">A3</span>
+    <span class="seat">B1</span>
+    <span class="seat">B2</span>
+</div>
+
+<a class="btn" href="confirm">Book Selected Seats</a>
+
+</body>
+</html>

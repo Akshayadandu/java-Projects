@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Bookings</title>
+<style>
+body{font-family:Arial;background:#f4f6fb;margin:0;}
+h2{text-align:center;margin:30px 0;color:#2c5364;}
+
+table{
+    width:80%;
+    margin:auto;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+th,td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+th{
+    background:#2c5364;
+    color:white;
+}
+.btn{
+    padding:6px 12px;
+    border-radius:5px;
+    text-decoration:none;
+    color:white;
+}
+.view{background:#007bff;}
+.download{background:#28a745;}
+</style>
+</head>
+<body>
+
+<h2>My Bookings</h2>
+
+<table>
+<tr>
+    <th>Booking ID</th>
+    <th>Show ID</th>
+    <th>Total Amount</th>
+    <th>Booking Time</th>
+    <th>Actions</th>
+</tr>
+<tr>
+    <td>4</td>
+    <td>2</td>
+    <td>$11.99</td>
+    <td>2025-11-25</td>
+    <td>
+        <a class="btn view">View</a>
+        <a class="btn download">Download</a>
+    </td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<style>
+body{font-family:Arial;background:#f5f7fa;margin:0;}
+h2{text-align:center;margin:30px;color:#222;}
+
+table{
+    width:90%;
+    margin:auto;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 6px 15px rgba(0,0,0,0.12);
+}
+th,td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+th{background:#212529;color:white;}
+
+select{
+    padding:5px;
+}
+.btn{
+    background:#ffc107;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Admin Dashboard</h2>
+
+<table>
+<tr>
+    <th>User ID</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th>Action</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>admin</td>
+    <td>admin@example.com</td>
+    <td>APPLICATION_ADMIN</td>
+    <td>
+        <select>
+            <option>Normal User</option>
+            <option selected>Admin</option>
+            <option>Theatre Admin</option>
+        </select>
+        <button class="btn">Update</button>
+    </td>
+</tr>
+</table>
+
+</body>
+</html>
